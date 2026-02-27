@@ -1,0 +1,77 @@
+[
+  {
+    "url": "/",
+    "description": "Homepage",
+    "missing_headers": [
+      "Content-Security-Policy",
+      "Strict-Transport-Security"
+    ],
+    "present_headers": [
+      "X-Frame-Options",
+      "X-Content-Type-Options"
+    ],
+    "server": "Not disclosed",
+    "x_powered_by": "Not disclosed",
+    "potential_misconfiguration": true
+  },
+  {
+    "url": "/rest/products/search",
+    "description": "Product search",
+    "missing_headers": [
+      "Content-Security-Policy",
+      "Strict-Transport-Security"
+    ],
+    "present_headers": [
+      "X-Frame-Options",
+      "X-Content-Type-Options"
+    ],
+    "server": "Not disclosed",
+    "x_powered_by": "Not disclosed",
+    "potential_misconfiguration": true
+  },
+  {
+    "url": "/rest/user/login",
+    "description": "User login",
+    "missing_headers": [
+      "Content-Security-Policy",
+      "Strict-Transport-Security"
+    ],
+    "present_headers": [
+      "X-Frame-Options",
+      "X-Content-Type-Options"
+    ],
+    "server": "Not disclosed",
+    "x_powered_by": "Not disclosed",
+    "potential_misconfiguration": true
+  },
+  {
+    "url": "/api/Users",
+    "description": "All user accounts",
+    "missing_headers": [
+      "Content-Security-Policy",
+      "Strict-Transport-Security"
+    ],
+    "present_headers": [
+      "X-Frame-Options",
+      "X-Content-Type-Options"
+    ],
+    "server": "Not disclosed",
+    "x_powered_by": "Not disclosed",
+    "potential_misconfiguration": true
+  },
+  {
+    "url": "/rest/admin/application-configuration",
+    "description": "Admin config",
+    "missing_headers": [
+      "Content-Security-Policy",
+      "Strict-Transport-Security"
+    ],
+    "present_headers": [
+      "X-Frame-Options",
+      "X-Content-Type-Options"
+    ],
+    "server": "Not disclosed",
+    "x_powered_by": "Not disclosed",
+    "potential_misconfiguration": true
+  }
+]
