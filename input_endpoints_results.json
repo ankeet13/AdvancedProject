@@ -1,0 +1,34 @@
+[
+  {
+    "url": "/rest/products/search",
+    "method": "GET",
+    "input_param": "q",
+    "description": "Product search",
+    "status": 200,
+    "potential_sql_injection": true
+  },
+  {
+    "url": "/rest/user/login",
+    "method": "POST",
+    "input_param": "email",
+    "description": "User login",
+    "status": 200,
+    "potential_sql_injection": true
+  },
+  {
+    "url": "/api/Users",
+    "method": "POST",
+    "input_param": "email",
+    "description": "User registration",
+    "status": 400,
+    "potential_sql_injection": true
+  },
+  {
+    "url": "/rest/user/reset-password",
+    "method": "POST",
+    "input_param": "email",
+    "description": "Password reset",
+    "status": 500,
+    "potential_sql_injection": false
+  }
+]
