@@ -1,0 +1,37 @@
+[
+  {
+    "url": "/rest/user/login",
+    "method": "POST",
+    "description": "User login",
+    "status": 401,
+    "potential_auth_failure": true
+  },
+  {
+    "url": "/api/Users",
+    "method": "POST",
+    "description": "User registration",
+    "status": 201,
+    "potential_auth_failure": false
+  },
+  {
+    "url": "/rest/user/reset-password",
+    "method": "POST",
+    "description": "Password reset",
+    "status": 500,
+    "potential_auth_failure": false
+  },
+  {
+    "url": "/rest/user/whoami",
+    "method": "GET",
+    "description": "Current user session",
+    "status": 200,
+    "potential_auth_failure": true
+  },
+  {
+    "url": "/rest/user/change-password",
+    "method": "GET",
+    "description": "Change password",
+    "status": 401,
+    "potential_auth_failure": true
+  }
+]
