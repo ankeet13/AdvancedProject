@@ -3,15 +3,15 @@
     "url": "/rest/user/login",
     "method": "POST",
     "description": "User login",
-    "status": 401,
+    "status": 200,
     "potential_auth_failure": true
   },
   {
     "url": "/api/Users",
     "method": "POST",
     "description": "User registration",
-    "status": 201,
-    "potential_auth_failure": false
+    "status": 400,
+    "potential_auth_failure": true
   },
   {
     "url": "/rest/user/reset-password",

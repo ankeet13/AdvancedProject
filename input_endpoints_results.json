@@ -12,7 +12,7 @@
     "method": "POST",
     "input_param": "email",
     "description": "User login",
-    "status": 200,
+    "status": 401,
     "potential_sql_injection": true
   },
   {
@@ -20,8 +20,8 @@
     "method": "POST",
     "input_param": "email",
     "description": "User registration",
-    "status": 400,
-    "potential_sql_injection": true
+    "status": 201,
+    "potential_sql_injection": false
   },
   {
     "url": "/rest/user/reset-password",
