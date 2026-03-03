@@ -1,0 +1,82 @@
+{
+  "base_url": "http://localhost:3000",
+  "endpoints": [
+
+    {
+      "url": "/rest/products/search",
+      "method": "GET",
+      "param": "q",
+      "description": "Product search"
+    },
+
+    {
+      "url": "/rest/user/login",
+      "method": "POST",
+      "param": "email",
+      "description": "User login"
+    },
+
+    {
+      "url": "/api/Users",
+      "method": "POST",
+      "param": "email",
+      "description": "User registration"
+    },
+
+    {
+      "url": "/rest/user/reset-password",
+      "method": "POST",
+      "param": "email",
+      "description": "Password reset"
+    },
+
+    {
+      "url": "/rest/user/whoami",
+      "method": "GET",
+      "description": "Current user session"
+    },
+
+    {
+      "url": "/rest/user/change-password",
+      "method": "GET",
+      "description": "Change password"
+    },
+
+    {
+      "url": "/",
+      "method": "GET",
+      "description": "Homepage"
+    },
+
+    {
+      "url": "/api/Users",
+      "method": "GET",
+      "description": "All user accounts"
+    },
+
+    {
+      "url": "/api/Users/1",
+      "method": "GET",
+      "description": "Specific user account"
+    },
+
+    {
+      "url": "/api/Feedbacks",
+      "method": "GET",
+      "description": "All feedback"
+    },
+
+    {
+      "url": "/api/Complaints",
+      "method": "GET",
+      "description": "All complaints"
+    },
+
+    {
+      "url": "/rest/admin/application-configuration",
+      "method": "GET",
+      "description": "Admin configuration"
+    }
+
+  ]
+}
