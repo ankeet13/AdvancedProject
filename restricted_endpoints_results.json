@@ -1,0 +1,38 @@
+[
+  {
+    "url": "/rest/admin/application-configuration",
+    "description": "Admin configuration",
+    "status": 200,
+    "potential_broken_access_control": true
+  },
+  {
+    "url": "/api/Users",
+    "description": "All user accounts",
+    "status": 401,
+    "potential_broken_access_control": false
+  },
+  {
+    "url": "/api/Users/1",
+    "description": "Specific user account",
+    "status": 401,
+    "potential_broken_access_control": false
+  },
+  {
+    "url": "/api/Feedbacks",
+    "description": "All feedback",
+    "status": 200,
+    "potential_broken_access_control": true
+  },
+  {
+    "url": "/rest/user/whoami",
+    "description": "Current user info",
+    "status": 200,
+    "potential_broken_access_control": true
+  },
+  {
+    "url": "/api/Complaints",
+    "description": "All complaints",
+    "status": 401,
+    "potential_broken_access_control": false
+  }
+]
