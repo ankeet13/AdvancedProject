@@ -1,0 +1,50 @@
+[
+  {
+    "type": "Authentication Failure",
+    "url": "http://localhost:3000/rest/user/login",
+    "severity": "High",
+    "detail": "[SPRINT 1 - CRAWLER] Auth endpoint via api. Method: POST"
+  },
+  {
+    "type": "Authentication Failure",
+    "url": "http://localhost:3000/rest/user/logout",
+    "severity": "High",
+    "detail": "[SPRINT 1 - CRAWLER] Auth endpoint via api. Method: POST"
+  },
+  {
+    "type": "Authentication Failure",
+    "url": "http://localhost:3000/api/login",
+    "severity": "High",
+    "detail": "[SPRINT 1 - CRAWLER] Auth endpoint via api. Method: POST"
+  },
+  {
+    "type": "Authentication Failure",
+    "url": "http://localhost:3000/api/auth/login",
+    "severity": "High",
+    "detail": "[SPRINT 1 - CRAWLER] Auth endpoint via api. Method: POST"
+  },
+  {
+    "type": "Authentication Failure",
+    "url": "http://localhost:3000/login",
+    "severity": "High",
+    "detail": "[SPRINT 1 - CRAWLER] Auth endpoint via api. Method: POST"
+  },
+  {
+    "type": "Authentication Failure",
+    "url": "http://localhost:3000/register",
+    "severity": "High",
+    "detail": "[SPRINT 1 - CRAWLER] Auth endpoint via api. Method: POST"
+  },
+  {
+    "type": "Authentication Failure",
+    "url": "http://localhost:3000/signup",
+    "severity": "High",
+    "detail": "[SPRINT 1 - CRAWLER] Auth endpoint via api. Method: POST"
+  },
+  {
+    "type": "Authentication Failure",
+    "url": "http://localhost:3000/api/Users",
+    "severity": "High",
+    "detail": "[SPRINT 1 - CRAWLER] Auth endpoint via api. Method: POST"
+  }
+]
