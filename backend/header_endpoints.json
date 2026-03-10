@@ -1,0 +1,176 @@
+[
+  {
+    "type": "Security Misconfiguration",
+    "url": "http://localhost:3000",
+    "severity": "Info",
+    "detail": "Missing security header: Content-Security-Policy"
+  },
+  {
+    "type": "Security Misconfiguration",
+    "url": "http://localhost:3000",
+    "severity": "Info",
+    "detail": "Missing security header: Strict-Transport-Security"
+  },
+  {
+    "type": "Security Misconfiguration",
+    "url": "http://localhost:3000",
+    "severity": "Info",
+    "detail": "Missing security header: Referrer-Policy"
+  },
+  {
+    "type": "Security Misconfiguration",
+    "url": "http://localhost:3000",
+    "severity": "Info",
+    "detail": "Missing security header: Permissions-Policy"
+  },
+  {
+    "type": "Security Misconfiguration",
+    "url": "http://localhost:3000/.env",
+    "severity": "Info",
+    "detail": "Sensitive path HTTP 200: /.env"
+  },
+  {
+    "type": "Security Misconfiguration",
+    "url": "http://localhost:3000/.env.local",
+    "severity": "Info",
+    "detail": "Sensitive path HTTP 200: /.env.local"
+  },
+  {
+    "type": "Security Misconfiguration",
+    "url": "http://localhost:3000/.env.production",
+    "severity": "Info",
+    "detail": "Sensitive path HTTP 200: /.env.production"
+  },
+  {
+    "type": "Security Misconfiguration",
+    "url": "http://localhost:3000/config.php",
+    "severity": "Info",
+    "detail": "Sensitive path HTTP 200: /config.php"
+  },
+  {
+    "type": "Security Misconfiguration",
+    "url": "http://localhost:3000/config.json",
+    "severity": "Info",
+    "detail": "Sensitive path HTTP 200: /config.json"
+  },
+  {
+    "type": "Security Misconfiguration",
+    "url": "http://localhost:3000/config.yaml",
+    "severity": "Info",
+    "detail": "Sensitive path HTTP 200: /config.yaml"
+  },
+  {
+    "type": "Security Misconfiguration",
+    "url": "http://localhost:3000/web.config",
+    "severity": "Info",
+    "detail": "Sensitive path HTTP 200: /web.config"
+  },
+  {
+    "type": "Security Misconfiguration",
+    "url": "http://localhost:3000/appsettings.json",
+    "severity": "Info",
+    "detail": "Sensitive path HTTP 200: /appsettings.json"
+  },
+  {
+    "type": "Security Misconfiguration",
+    "url": "http://localhost:3000/wp-config.php",
+    "severity": "Info",
+    "detail": "Sensitive path HTTP 200: /wp-config.php"
+  },
+  {
+    "type": "Security Misconfiguration",
+    "url": "http://localhost:3000/.git/config",
+    "severity": "Info",
+    "detail": "Sensitive path HTTP 200: /.git/config"
+  },
+  {
+    "type": "Security Misconfiguration",
+    "url": "http://localhost:3000/.git/HEAD",
+    "severity": "Info",
+    "detail": "Sensitive path HTTP 200: /.git/HEAD"
+  },
+  {
+    "type": "Security Misconfiguration",
+    "url": "http://localhost:3000/.gitignore",
+    "severity": "Info",
+    "detail": "Sensitive path HTTP 200: /.gitignore"
+  },
+  {
+    "type": "Security Misconfiguration",
+    "url": "http://localhost:3000/phpinfo.php",
+    "severity": "Info",
+    "detail": "Sensitive path HTTP 200: /phpinfo.php"
+  },
+  {
+    "type": "Security Misconfiguration",
+    "url": "http://localhost:3000/server-status",
+    "severity": "Info",
+    "detail": "Sensitive path HTTP 200: /server-status"
+  },
+  {
+    "type": "Security Misconfiguration",
+    "url": "http://localhost:3000/actuator",
+    "severity": "Info",
+    "detail": "Sensitive path HTTP 200: /actuator"
+  },
+  {
+    "type": "Security Misconfiguration",
+    "url": "http://localhost:3000/actuator/env",
+    "severity": "Info",
+    "detail": "Sensitive path HTTP 200: /actuator/env"
+  },
+  {
+    "type": "Security Misconfiguration",
+    "url": "http://localhost:3000/metrics",
+    "severity": "Info",
+    "detail": "Sensitive path HTTP 200: /metrics"
+  },
+  {
+    "type": "Security Misconfiguration",
+    "url": "http://localhost:3000/swagger.json",
+    "severity": "Info",
+    "detail": "Sensitive path HTTP 200: /swagger.json"
+  },
+  {
+    "type": "Security Misconfiguration",
+    "url": "http://localhost:3000/openapi.json",
+    "severity": "Info",
+    "detail": "Sensitive path HTTP 200: /openapi.json"
+  },
+  {
+    "type": "Security Misconfiguration",
+    "url": "http://localhost:3000/api-docs",
+    "severity": "Info",
+    "detail": "Sensitive path HTTP 200: /api-docs"
+  },
+  {
+    "type": "Security Misconfiguration",
+    "url": "http://localhost:3000/robots.txt",
+    "severity": "Info",
+    "detail": "Sensitive path HTTP 200: /robots.txt"
+  },
+  {
+    "type": "Security Misconfiguration",
+    "url": "http://localhost:3000/sitemap.xml",
+    "severity": "Info",
+    "detail": "Sensitive path HTTP 200: /sitemap.xml"
+  },
+  {
+    "type": "Security Misconfiguration",
+    "url": "http://localhost:3000/backup.zip",
+    "severity": "Info",
+    "detail": "Sensitive path HTTP 200: /backup.zip"
+  },
+  {
+    "type": "Security Misconfiguration",
+    "url": "http://localhost:3000/db.sql",
+    "severity": "Info",
+    "detail": "Sensitive path HTTP 200: /db.sql"
+  },
+  {
+    "type": "Security Misconfiguration",
+    "url": "http://localhost:3000/database.sql",
+    "severity": "Info",
+    "detail": "Sensitive path HTTP 200: /database.sql"
+  }
+]
