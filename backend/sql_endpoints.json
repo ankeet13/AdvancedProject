@@ -1,0 +1,440 @@
+[
+  {
+    "type": "SQL Injection",
+    "url": "http://localhost:3000/redirect?to=https://github.com/juice-shop/juice-shop",
+    "severity": "Info",
+    "detail": "Input endpoint via selenium_form. Fields: ['query-builder-test']"
+  },
+  {
+    "type": "SQL Injection",
+    "url": "http://localhost:3000/search/feedback",
+    "severity": "Info",
+    "detail": "Input endpoint via selenium_form. Fields: ['include_email']"
+  },
+  {
+    "type": "SQL Injection",
+    "url": "http://localhost:3000/search/custom_scopes",
+    "severity": "Info",
+    "detail": "Input endpoint via selenium_form. Fields: ['custom_scope_name', 'custom_scope_query']"
+  },
+  {
+    "type": "SQL Injection",
+    "url": "http://localhost:3000/redirect?to=https://github.com/juice-shop/juice-shop#start-of-content",
+    "severity": "Info",
+    "detail": "Input endpoint via selenium_form. Fields: ['query-builder-test']"
+  },
+  {
+    "type": "SQL Injection",
+    "url": "http://localhost:3000/login?return_to=https%3A%2F%2Fgithub.com%2Fjuice-shop%2Fjuice-shop",
+    "severity": "Info",
+    "detail": "Input endpoint via selenium_url_param. Fields: ['return_to']"
+  },
+  {
+    "type": "SQL Injection",
+    "url": "http://localhost:3000/signup?ref_cta=Sign+up&ref_loc=header+logged+out&ref_page=%2F%3Cuser-name%3E%2F%3Crepo-name%3E&source=header-repo&source_repo=juice-shop%2Fjuice-shop",
+    "severity": "Info",
+    "detail": "Input endpoint via selenium_url_param. Fields: ['ref_cta', 'ref_loc', 'ref_page', 'source', 'source_repo']"
+  },
+  {
+    "type": "SQL Injection",
+    "url": "http://localhost:3000/contact/report-abuse?report=juice-shop%2Fjuice-shop+%28Repository+Funding+Links%29",
+    "severity": "Info",
+    "detail": "Input endpoint via selenium_url_param. Fields: ['report']"
+  },
+  {
+    "type": "SQL Injection",
+    "url": "http://localhost:3000/login?return_to=%2Fjuice-shop%2Fjuice-shop",
+    "severity": "Info",
+    "detail": "Input endpoint via selenium_url_param. Fields: ['return_to']"
+  },
+  {
+    "type": "SQL Injection",
+    "url": "http://localhost:3000/juice-shop/juice-shop/commits?author=bkimminich",
+    "severity": "Info",
+    "detail": "Input endpoint via selenium_url_param. Fields: ['author']"
+  },
+  {
+    "type": "SQL Injection",
+    "url": "http://localhost:3000/redirect?to=https://github.com/juice-shop/juice-shop#-owasp-juice-shop",
+    "severity": "Info",
+    "detail": "Input endpoint via selenium_url_param. Fields: ['to']"
+  },
+  {
+    "type": "SQL Injection",
+    "url": "http://localhost:3000/redirect?to=https://github.com/juice-shop/juice-shop#table-of-contents",
+    "severity": "Info",
+    "detail": "Input endpoint via selenium_url_param. Fields: ['to']"
+  },
+  {
+    "type": "SQL Injection",
+    "url": "http://localhost:3000/redirect?to=https://github.com/juice-shop/juice-shop#setup",
+    "severity": "Info",
+    "detail": "Input endpoint via selenium_url_param. Fields: ['to']"
+  },
+  {
+    "type": "SQL Injection",
+    "url": "http://localhost:3000/redirect?to=https://github.com/juice-shop/juice-shop#from-sources",
+    "severity": "Info",
+    "detail": "Input endpoint via selenium_url_param. Fields: ['to']"
+  },
+  {
+    "type": "SQL Injection",
+    "url": "http://localhost:3000/redirect?to=https://github.com/juice-shop/juice-shop#packaged-distributions",
+    "severity": "Info",
+    "detail": "Input endpoint via selenium_url_param. Fields: ['to']"
+  },
+  {
+    "type": "SQL Injection",
+    "url": "http://localhost:3000/redirect?to=https://github.com/juice-shop/juice-shop#docker-container",
+    "severity": "Info",
+    "detail": "Input endpoint via selenium_url_param. Fields: ['to']"
+  },
+  {
+    "type": "SQL Injection",
+    "url": "http://localhost:3000/redirect?to=https://github.com/juice-shop/juice-shop#vagrant",
+    "severity": "Info",
+    "detail": "Input endpoint via selenium_url_param. Fields: ['to']"
+  },
+  {
+    "type": "SQL Injection",
+    "url": "http://localhost:3000/redirect?to=https://github.com/juice-shop/juice-shop#demo",
+    "severity": "Info",
+    "detail": "Input endpoint via selenium_url_param. Fields: ['to']"
+  },
+  {
+    "type": "SQL Injection",
+    "url": "http://localhost:3000/redirect?to=https://github.com/juice-shop/juice-shop#documentation",
+    "severity": "Info",
+    "detail": "Input endpoint via selenium_url_param. Fields: ['to']"
+  },
+  {
+    "type": "SQL Injection",
+    "url": "http://localhost:3000/redirect?to=https://github.com/juice-shop/juice-shop#nodejs-version-compatibility",
+    "severity": "Info",
+    "detail": "Input endpoint via selenium_url_param. Fields: ['to']"
+  },
+  {
+    "type": "SQL Injection",
+    "url": "http://localhost:3000/redirect?to=https://github.com/juice-shop/juice-shop#troubleshooting",
+    "severity": "Info",
+    "detail": "Input endpoint via selenium_url_param. Fields: ['to']"
+  },
+  {
+    "type": "SQL Injection",
+    "url": "http://localhost:3000/redirect?to=https://github.com/juice-shop/juice-shop#official-companion-guide",
+    "severity": "Info",
+    "detail": "Input endpoint via selenium_url_param. Fields: ['to']"
+  },
+  {
+    "type": "SQL Injection",
+    "url": "http://localhost:3000/redirect?to=https://github.com/juice-shop/juice-shop#contributing",
+    "severity": "Info",
+    "detail": "Input endpoint via selenium_url_param. Fields: ['to']"
+  },
+  {
+    "type": "SQL Injection",
+    "url": "http://localhost:3000/redirect?to=https://github.com/juice-shop/juice-shop#references",
+    "severity": "Info",
+    "detail": "Input endpoint via selenium_url_param. Fields: ['to']"
+  },
+  {
+    "type": "SQL Injection",
+    "url": "http://localhost:3000/redirect?to=https://github.com/juice-shop/juice-shop#merchandise",
+    "severity": "Info",
+    "detail": "Input endpoint via selenium_url_param. Fields: ['to']"
+  },
+  {
+    "type": "SQL Injection",
+    "url": "http://localhost:3000/redirect?to=https://github.com/juice-shop/juice-shop#donations",
+    "severity": "Info",
+    "detail": "Input endpoint via selenium_url_param. Fields: ['to']"
+  },
+  {
+    "type": "SQL Injection",
+    "url": "http://localhost:3000/redirect?to=https://github.com/juice-shop/juice-shop#contributors",
+    "severity": "Info",
+    "detail": "Input endpoint via selenium_url_param. Fields: ['to']"
+  },
+  {
+    "type": "SQL Injection",
+    "url": "http://localhost:3000/redirect?to=https://github.com/juice-shop/juice-shop#licensing",
+    "severity": "Info",
+    "detail": "Input endpoint via selenium_url_param. Fields: ['to']"
+  },
+  {
+    "type": "SQL Injection",
+    "url": "http://localhost:3000/redirect?to=https://github.com/juice-shop/juice-shop#readme-ov-file",
+    "severity": "Info",
+    "detail": "Input endpoint via selenium_url_param. Fields: ['to']"
+  },
+  {
+    "type": "SQL Injection",
+    "url": "http://localhost:3000/redirect?to=https://github.com/juice-shop/juice-shop#MIT-1-ov-file",
+    "severity": "Info",
+    "detail": "Input endpoint via selenium_url_param. Fields: ['to']"
+  },
+  {
+    "type": "SQL Injection",
+    "url": "http://localhost:3000/redirect?to=https://github.com/juice-shop/juice-shop#coc-ov-file",
+    "severity": "Info",
+    "detail": "Input endpoint via selenium_url_param. Fields: ['to']"
+  },
+  {
+    "type": "SQL Injection",
+    "url": "http://localhost:3000/redirect?to=https://github.com/juice-shop/juice-shop#contributing-ov-file",
+    "severity": "Info",
+    "detail": "Input endpoint via selenium_url_param. Fields: ['to']"
+  },
+  {
+    "type": "SQL Injection",
+    "url": "http://localhost:3000/redirect?to=https://github.com/juice-shop/juice-shop#security-ov-file",
+    "severity": "Info",
+    "detail": "Input endpoint via selenium_url_param. Fields: ['to']"
+  },
+  {
+    "type": "SQL Injection",
+    "url": "http://localhost:3000/contact/report-content?content_url=https%3A%2F%2Fgithub.com%2Fjuice-shop%2Fjuice-shop&report=juice-shop+%28user%29",
+    "severity": "Info",
+    "detail": "Input endpoint via selenium_url_param. Fields: ['content_url', 'report']"
+  },
+  {
+    "type": "SQL Injection",
+    "url": "http://localhost:3000/juice-shop/juice-shop/search?l=typescript",
+    "severity": "Info",
+    "detail": "Input endpoint via selenium_url_param. Fields: ['l']"
+  },
+  {
+    "type": "SQL Injection",
+    "url": "http://localhost:3000/juice-shop/juice-shop/search?l=javascript",
+    "severity": "Info",
+    "detail": "Input endpoint via selenium_url_param. Fields: ['l']"
+  },
+  {
+    "type": "SQL Injection",
+    "url": "http://localhost:3000/juice-shop/juice-shop/search?l=html",
+    "severity": "Info",
+    "detail": "Input endpoint via selenium_url_param. Fields: ['l']"
+  },
+  {
+    "type": "SQL Injection",
+    "url": "http://localhost:3000/juice-shop/juice-shop/search?l=scss",
+    "severity": "Info",
+    "detail": "Input endpoint via selenium_url_param. Fields: ['l']"
+  },
+  {
+    "type": "SQL Injection",
+    "url": "http://localhost:3000/juice-shop/juice-shop/search?l=solidity",
+    "severity": "Info",
+    "detail": "Input endpoint via selenium_url_param. Fields: ['l']"
+  },
+  {
+    "type": "SQL Injection",
+    "url": "http://localhost:3000/juice-shop/juice-shop/search?l=pug",
+    "severity": "Info",
+    "detail": "Input endpoint via selenium_url_param. Fields: ['l']"
+  },
+  {
+    "type": "SQL Injection",
+    "url": "http://localhost:3000/login?return_to=https%3A%2F%2Fgithub.com%2Fjuice-shop%2Fjuice-shop#/login",
+    "severity": "Info",
+    "detail": "Input endpoint via selenium_url_param. Fields: ['return_to']"
+  },
+  {
+    "type": "SQL Injection",
+    "url": "http://localhost:3000/login?return_to=https%3A%2F%2Fgithub.com%2Fjuice-shop%2Fjuice-shop#/contact",
+    "severity": "Info",
+    "detail": "Input endpoint via selenium_url_param. Fields: ['return_to']"
+  },
+  {
+    "type": "SQL Injection",
+    "url": "http://localhost:3000/login?return_to=https%3A%2F%2Fgithub.com%2Fjuice-shop%2Fjuice-shop#/about",
+    "severity": "Info",
+    "detail": "Input endpoint via selenium_url_param. Fields: ['return_to']"
+  },
+  {
+    "type": "SQL Injection",
+    "url": "http://localhost:3000/login?return_to=https%3A%2F%2Fgithub.com%2Fjuice-shop%2Fjuice-shop#/photo-wall",
+    "severity": "Info",
+    "detail": "Input endpoint via selenium_url_param. Fields: ['return_to']"
+  },
+  {
+    "type": "SQL Injection",
+    "url": "http://localhost:3000/signup?ref_cta=Sign+up&ref_loc=header+logged+out&ref_page=%2F%3Cuser-name%3E%2F%3Crepo-name%3E&source=header-repo&source_repo=juice-shop%2Fjuice-shop#/login",
+    "severity": "Info",
+    "detail": "Input endpoint via selenium_url_param. Fields: ['ref_cta', 'ref_loc', 'ref_page', 'source', 'source_repo']"
+  },
+  {
+    "type": "SQL Injection",
+    "url": "http://localhost:3000/signup?ref_cta=Sign+up&ref_loc=header+logged+out&ref_page=%2F%3Cuser-name%3E%2F%3Crepo-name%3E&source=header-repo&source_repo=juice-shop%2Fjuice-shop#/contact",
+    "severity": "Info",
+    "detail": "Input endpoint via selenium_url_param. Fields: ['ref_cta', 'ref_loc', 'ref_page', 'source', 'source_repo']"
+  },
+  {
+    "type": "SQL Injection",
+    "url": "http://localhost:3000/signup?ref_cta=Sign+up&ref_loc=header+logged+out&ref_page=%2F%3Cuser-name%3E%2F%3Crepo-name%3E&source=header-repo&source_repo=juice-shop%2Fjuice-shop#/about",
+    "severity": "Info",
+    "detail": "Input endpoint via selenium_url_param. Fields: ['ref_cta', 'ref_loc', 'ref_page', 'source', 'source_repo']"
+  },
+  {
+    "type": "SQL Injection",
+    "url": "http://localhost:3000/signup?ref_cta=Sign+up&ref_loc=header+logged+out&ref_page=%2F%3Cuser-name%3E%2F%3Crepo-name%3E&source=header-repo&source_repo=juice-shop%2Fjuice-shop#/photo-wall",
+    "severity": "Info",
+    "detail": "Input endpoint via selenium_url_param. Fields: ['ref_cta', 'ref_loc', 'ref_page', 'source', 'source_repo']"
+  },
+  {
+    "type": "SQL Injection",
+    "url": "http://localhost:3000/rest/products/search?q=",
+    "severity": "Info",
+    "detail": "Input endpoint via selenium_api_intercept. Fields: ['q']"
+  },
+  {
+    "type": "SQL Injection",
+    "url": "http://localhost:3000/rest/admin/application-configuration",
+    "severity": "Info",
+    "detail": "Input endpoint via selenium_api_intercept. Fields: ['q']"
+  },
+  {
+    "type": "SQL Injection",
+    "url": "http://localhost:3000/rest/admin/application-version",
+    "severity": "Info",
+    "detail": "Input endpoint via selenium_api_intercept. Fields: ['q']"
+  },
+  {
+    "type": "SQL Injection",
+    "url": "http://localhost:3000/api/Quantitys/",
+    "severity": "Info",
+    "detail": "Input endpoint via selenium_api_intercept. Fields: ['q']"
+  },
+  {
+    "type": "SQL Injection",
+    "url": "http://localhost:3000/rest/languages",
+    "severity": "Info",
+    "detail": "Input endpoint via selenium_api_intercept. Fields: ['q']"
+  },
+  {
+    "type": "SQL Injection",
+    "url": "http://localhost:3000/api/Challenges/?name=Score%20Board",
+    "severity": "Info",
+    "detail": "Input endpoint via selenium_api_intercept. Fields: ['q']"
+  },
+  {
+    "type": "SQL Injection",
+    "url": "http://localhost:3000/rest/user/whoami",
+    "severity": "Info",
+    "detail": "Input endpoint via selenium_api_intercept. Fields: ['q']"
+  },
+  {
+    "type": "SQL Injection",
+    "url": "http://localhost:3000/rest/captcha/",
+    "severity": "Info",
+    "detail": "Input endpoint via selenium_api_intercept. Fields: ['q']"
+  },
+  {
+    "type": "SQL Injection",
+    "url": "http://localhost:3000/api/Feedbacks/",
+    "severity": "Info",
+    "detail": "Input endpoint via selenium_api_intercept. Fields: ['q']"
+  },
+  {
+    "type": "SQL Injection",
+    "url": "http://localhost:3000/rest/memories/",
+    "severity": "Info",
+    "detail": "Input endpoint via selenium_api_intercept. Fields: ['q']"
+  },
+  {
+    "type": "SQL Injection",
+    "url": "http://localhost:3000/api/SecurityQuestions/",
+    "severity": "Info",
+    "detail": "Input endpoint via selenium_api_intercept. Fields: ['q']"
+  },
+  {
+    "type": "SQL Injection",
+    "url": "http://localhost:3000/search",
+    "severity": "Info",
+    "detail": "Input endpoint via wordlist. Fields: ['q']"
+  },
+  {
+    "type": "SQL Injection",
+    "url": "http://localhost:3000/search?q=test",
+    "severity": "Info",
+    "detail": "Input endpoint via wordlist. Fields: ['q']"
+  },
+  {
+    "type": "SQL Injection",
+    "url": "http://localhost:3000/?s=test",
+    "severity": "Info",
+    "detail": "Input endpoint via wordlist. Fields: ['q']"
+  },
+  {
+    "type": "SQL Injection",
+    "url": "http://localhost:3000/?q=test",
+    "severity": "Info",
+    "detail": "Input endpoint via wordlist. Fields: ['q']"
+  },
+  {
+    "type": "SQL Injection",
+    "url": "http://localhost:3000/login",
+    "severity": "Info",
+    "detail": "Input endpoint via wordlist. Fields: ['q']"
+  },
+  {
+    "type": "SQL Injection",
+    "url": "http://localhost:3000/signin",
+    "severity": "Info",
+    "detail": "Input endpoint via wordlist. Fields: ['q']"
+  },
+  {
+    "type": "SQL Injection",
+    "url": "http://localhost:3000/register",
+    "severity": "Info",
+    "detail": "Input endpoint via wordlist. Fields: ['q']"
+  },
+  {
+    "type": "SQL Injection",
+    "url": "http://localhost:3000/signup",
+    "severity": "Info",
+    "detail": "Input endpoint via wordlist. Fields: ['q']"
+  },
+  {
+    "type": "SQL Injection",
+    "url": "http://localhost:3000/api/search",
+    "severity": "Info",
+    "detail": "Input endpoint via wordlist. Fields: ['q']"
+  },
+  {
+    "type": "SQL Injection",
+    "url": "http://localhost:3000/api/users",
+    "severity": "Info",
+    "detail": "Input endpoint via wordlist. Fields: ['q']"
+  },
+  {
+    "type": "SQL Injection",
+    "url": "http://localhost:3000/api/login",
+    "severity": "Info",
+    "detail": "Input endpoint via wordlist. Fields: ['q']"
+  },
+  {
+    "type": "SQL Injection",
+    "url": "http://localhost:3000/api/v1/search",
+    "severity": "Info",
+    "detail": "Input endpoint via wordlist. Fields: ['q']"
+  },
+  {
+    "type": "SQL Injection",
+    "url": "http://localhost:3000/api/v1/users",
+    "severity": "Info",
+    "detail": "Input endpoint via wordlist. Fields: ['q']"
+  },
+  {
+    "type": "SQL Injection",
+    "url": "http://localhost:3000/rest/products/search?q=test",
+    "severity": "Info",
+    "detail": "Input endpoint via wordlist. Fields: ['q']"
+  },
+  {
+    "type": "SQL Injection",
+    "url": "http://localhost:3000/rest/user/login",
+    "severity": "Info",
+    "detail": "Input endpoint via wordlist. Fields: ['q']"
+  }
+]
