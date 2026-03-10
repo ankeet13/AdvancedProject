@@ -1,0 +1,326 @@
+[
+  {
+    "type": "Broken Access Control",
+    "url": "http://localhost:3000/administrator",
+    "severity": "Info",
+    "detail": " Sensitive endpoint discovered: http://localhost:3000/administrator"
+  },
+  {
+    "type": "Broken Access Control",
+    "url": "http://localhost:3000/rest/user/whoami",
+    "severity": "Info",
+    "detail": " Sensitive endpoint discovered: http://localhost:3000/rest/user/whoami"
+  },
+  {
+    "type": "Broken Access Control",
+    "url": "http://localhost:3000/graphql",
+    "severity": "Info",
+    "detail": " Sensitive endpoint discovered: http://localhost:3000/graphql"
+  },
+  {
+    "type": "Broken Access Control",
+    "url": "http://localhost:3000/rest/captcha/",
+    "severity": "Info",
+    "detail": " Sensitive endpoint discovered: http://localhost:3000/rest/captcha/"
+  },
+  {
+    "type": "Broken Access Control",
+    "url": "http://localhost:3000/juice-shop/juice-shop/blob/master/config.schema.yml",
+    "severity": "Info",
+    "detail": " Sensitive endpoint discovered: http://localhost:3000/juice-shop/juice-shop/blob/master/config.schema.yml"
+  },
+  {
+    "type": "Broken Access Control",
+    "url": "http://localhost:3000/rest",
+    "severity": "Info",
+    "detail": " Sensitive endpoint discovered: http://localhost:3000/rest"
+  },
+  {
+    "type": "Broken Access Control",
+    "url": "http://localhost:3000/api",
+    "severity": "Info",
+    "detail": " Sensitive endpoint discovered: http://localhost:3000/api"
+  },
+  {
+    "type": "Broken Access Control",
+    "url": "http://localhost:3000/api/Challenges/?name=Score%20Board",
+    "severity": "Info",
+    "detail": " Sensitive endpoint discovered: http://localhost:3000/api/Challenges/?name=Score%20Board"
+  },
+  {
+    "type": "Broken Access Control",
+    "url": "http://localhost:3000/wp-admin",
+    "severity": "Info",
+    "detail": " Sensitive endpoint discovered: http://localhost:3000/wp-admin"
+  },
+  {
+    "type": "Broken Access Control",
+    "url": "http://localhost:3000/api/admin",
+    "severity": "Info",
+    "detail": " Sensitive endpoint discovered: http://localhost:3000/api/admin"
+  },
+  {
+    "type": "Broken Access Control",
+    "url": "http://localhost:3000/api/users",
+    "severity": "Info",
+    "detail": " Sensitive endpoint discovered: http://localhost:3000/api/users"
+  },
+  {
+    "type": "Broken Access Control",
+    "url": "http://localhost:3000/metrics",
+    "severity": "Info",
+    "detail": " Sensitive endpoint discovered: http://localhost:3000/metrics"
+  },
+  {
+    "type": "Broken Access Control",
+    "url": "http://localhost:3000/api/config",
+    "severity": "Info",
+    "detail": " Sensitive endpoint discovered: http://localhost:3000/api/config"
+  },
+  {
+    "type": "Broken Access Control",
+    "url": "http://localhost:3000/phpmyadmin",
+    "severity": "Info",
+    "detail": " Sensitive endpoint discovered: http://localhost:3000/phpmyadmin"
+  },
+  {
+    "type": "Broken Access Control",
+    "url": "http://localhost:3000/.env",
+    "severity": "Info",
+    "detail": " Sensitive endpoint discovered: http://localhost:3000/.env"
+  },
+  {
+    "type": "Broken Access Control",
+    "url": "http://localhost:3000/signup?ref_cta=Sign+up&ref_loc=header+logged+out&ref_page=%2F%3Cuser-name%3E%2F%3Crepo-name%3E&source=header-repo&source_repo=juice-shop%2Fjuice-shop#/about",
+    "severity": "Info",
+    "detail": " Sensitive endpoint discovered: http://localhost:3000/signup?ref_cta=Sign+up&ref_loc=header+logged+out&ref_page=%2F%3Cuser-name%3E%2F%3Crepo-name%3E&source=header-repo&source_repo=juice-shop%2Fjuice-shop#/about"
+  },
+  {
+    "type": "Broken Access Control",
+    "url": "http://localhost:3000/signup?ref_cta=Sign+up&ref_loc=header+logged+out&ref_page=%2F%3Cuser-name%3E%2F%3Crepo-name%3E&source=header-repo&source_repo=juice-shop%2Fjuice-shop#/contact",
+    "severity": "Info",
+    "detail": " Sensitive endpoint discovered: http://localhost:3000/signup?ref_cta=Sign+up&ref_loc=header+logged+out&ref_page=%2F%3Cuser-name%3E%2F%3Crepo-name%3E&source=header-repo&source_repo=juice-shop%2Fjuice-shop#/contact"
+  },
+  {
+    "type": "Broken Access Control",
+    "url": "http://localhost:3000/api/Users",
+    "severity": "Info",
+    "detail": " Sensitive endpoint discovered: http://localhost:3000/api/Users"
+  },
+  {
+    "type": "Broken Access Control",
+    "url": "http://localhost:3000/rest/admin/application-configuration",
+    "severity": "Info",
+    "detail": " Sensitive endpoint discovered: http://localhost:3000/rest/admin/application-configuration"
+  },
+  {
+    "type": "Broken Access Control",
+    "url": "http://localhost:3000/server-status",
+    "severity": "Info",
+    "detail": " Sensitive endpoint discovered: http://localhost:3000/server-status"
+  },
+  {
+    "type": "Broken Access Control",
+    "url": "http://localhost:3000/contact/report-content?content_url=https%3A%2F%2Fgithub.com%2Fjuice-shop%2Fjuice-shop&report=juice-shop+%28user%29",
+    "severity": "Info",
+    "detail": " Sensitive endpoint discovered: http://localhost:3000/contact/report-content?content_url=https%3A%2F%2Fgithub.com%2Fjuice-shop%2Fjuice-shop&report=juice-shop+%28user%29"
+  },
+  {
+    "type": "Broken Access Control",
+    "url": "http://localhost:3000/config.json",
+    "severity": "Info",
+    "detail": " Sensitive endpoint discovered: http://localhost:3000/config.json"
+  },
+  {
+    "type": "Broken Access Control",
+    "url": "http://localhost:3000/signup?ref_cta=Sign+up&ref_loc=header+logged+out&ref_page=%2F%3Cuser-name%3E%2F%3Crepo-name%3E&source=header-repo&source_repo=juice-shop%2Fjuice-shop",
+    "severity": "Info",
+    "detail": " Sensitive endpoint discovered: http://localhost:3000/signup?ref_cta=Sign+up&ref_loc=header+logged+out&ref_page=%2F%3Cuser-name%3E%2F%3Crepo-name%3E&source=header-repo&source_repo=juice-shop%2Fjuice-shop"
+  },
+  {
+    "type": "Broken Access Control",
+    "url": "http://localhost:3000/api/Quantitys/",
+    "severity": "Info",
+    "detail": " Sensitive endpoint discovered: http://localhost:3000/api/Quantitys/"
+  },
+  {
+    "type": "Broken Access Control",
+    "url": "http://localhost:3000/openapi.json",
+    "severity": "Info",
+    "detail": " Sensitive endpoint discovered: http://localhost:3000/openapi.json"
+  },
+  {
+    "type": "Broken Access Control",
+    "url": "http://localhost:3000/rest/admin/application-version",
+    "severity": "Info",
+    "detail": " Sensitive endpoint discovered: http://localhost:3000/rest/admin/application-version"
+  },
+  {
+    "type": "Broken Access Control",
+    "url": "http://localhost:3000/admin",
+    "severity": "Info",
+    "detail": " Sensitive endpoint discovered: http://localhost:3000/admin"
+  },
+  {
+    "type": "Broken Access Control",
+    "url": "http://localhost:3000/phpinfo.php",
+    "severity": "Info",
+    "detail": " Sensitive endpoint discovered: http://localhost:3000/phpinfo.php"
+  },
+  {
+    "type": "Broken Access Control",
+    "url": "http://localhost:3000/api/SecurityQuestions",
+    "severity": "Info",
+    "detail": " Sensitive endpoint discovered: http://localhost:3000/api/SecurityQuestions"
+  },
+  {
+    "type": "Broken Access Control",
+    "url": "http://localhost:3000/api/Feedbacks/",
+    "severity": "Info",
+    "detail": " Sensitive endpoint discovered: http://localhost:3000/api/Feedbacks/"
+  },
+  {
+    "type": "Broken Access Control",
+    "url": "http://localhost:3000/admin/login",
+    "severity": "Info",
+    "detail": " Sensitive endpoint discovered: http://localhost:3000/admin/login"
+  },
+  {
+    "type": "Broken Access Control",
+    "url": "http://localhost:3000/api/Challenges",
+    "severity": "Info",
+    "detail": " Sensitive endpoint discovered: http://localhost:3000/api/Challenges"
+  },
+  {
+    "type": "Broken Access Control",
+    "url": "http://localhost:3000/.git/config",
+    "severity": "Info",
+    "detail": " Sensitive endpoint discovered: http://localhost:3000/.git/config"
+  },
+  {
+    "type": "Broken Access Control",
+    "url": "http://localhost:3000/juice-shop/juice-shop/blob/master/tsconfig.json",
+    "severity": "Info",
+    "detail": " Sensitive endpoint discovered: http://localhost:3000/juice-shop/juice-shop/blob/master/tsconfig.json"
+  },
+  {
+    "type": "Broken Access Control",
+    "url": "http://localhost:3000/api-docs",
+    "severity": "Info",
+    "detail": " Sensitive endpoint discovered: http://localhost:3000/api-docs"
+  },
+  {
+    "type": "Broken Access Control",
+    "url": "http://localhost:3000/signup?ref_cta=Sign+up&ref_loc=header+logged+out&ref_page=%2F%3Cuser-name%3E%2F%3Crepo-name%3E&source=header-repo&source_repo=juice-shop%2Fjuice-shop#/photo-wall",
+    "severity": "Info",
+    "detail": " Sensitive endpoint discovered: http://localhost:3000/signup?ref_cta=Sign+up&ref_loc=header+logged+out&ref_page=%2F%3Cuser-name%3E%2F%3Crepo-name%3E&source=header-repo&source_repo=juice-shop%2Fjuice-shop#/photo-wall"
+  },
+  {
+    "type": "Broken Access Control",
+    "url": "http://localhost:3000/api/SecurityQuestions/",
+    "severity": "Info",
+    "detail": " Sensitive endpoint discovered: http://localhost:3000/api/SecurityQuestions/"
+  },
+  {
+    "type": "Broken Access Control",
+    "url": "http://localhost:3000/api/v1",
+    "severity": "Info",
+    "detail": " Sensitive endpoint discovered: http://localhost:3000/api/v1"
+  },
+  {
+    "type": "Broken Access Control",
+    "url": "http://localhost:3000/juice-shop/juice-shop/tree/master/config",
+    "severity": "Info",
+    "detail": " Sensitive endpoint discovered: http://localhost:3000/juice-shop/juice-shop/tree/master/config"
+  },
+  {
+    "type": "Broken Access Control",
+    "url": "http://localhost:3000/rest/languages",
+    "severity": "Info",
+    "detail": " Sensitive endpoint discovered: http://localhost:3000/rest/languages"
+  },
+  {
+    "type": "Broken Access Control",
+    "url": "http://localhost:3000/swagger.json",
+    "severity": "Info",
+    "detail": " Sensitive endpoint discovered: http://localhost:3000/swagger.json"
+  },
+  {
+    "type": "Broken Access Control",
+    "url": "http://localhost:3000/actuator",
+    "severity": "Info",
+    "detail": " Sensitive endpoint discovered: http://localhost:3000/actuator"
+  },
+  {
+    "type": "Broken Access Control",
+    "url": "http://localhost:3000/robots.txt",
+    "severity": "Info",
+    "detail": " Sensitive endpoint discovered: http://localhost:3000/robots.txt"
+  },
+  {
+    "type": "Broken Access Control",
+    "url": "http://localhost:3000/api/v2",
+    "severity": "Info",
+    "detail": " Sensitive endpoint discovered: http://localhost:3000/api/v2"
+  },
+  {
+    "type": "Broken Access Control",
+    "url": "http://localhost:3000/juice-shop/juice-shop/blob/master/.devcontainer.json",
+    "severity": "Info",
+    "detail": " Sensitive endpoint discovered: http://localhost:3000/juice-shop/juice-shop/blob/master/.devcontainer.json"
+  },
+  {
+    "type": "Broken Access Control",
+    "url": "http://localhost:3000/juice-shop/juice-shop/blob/master/cypress.config.ts",
+    "severity": "Info",
+    "detail": " Sensitive endpoint discovered: http://localhost:3000/juice-shop/juice-shop/blob/master/cypress.config.ts"
+  },
+  {
+    "type": "Broken Access Control",
+    "url": "http://localhost:3000/sitemap.xml",
+    "severity": "Info",
+    "detail": " Sensitive endpoint discovered: http://localhost:3000/sitemap.xml"
+  },
+  {
+    "type": "Broken Access Control",
+    "url": "http://localhost:3000/rest/memories/",
+    "severity": "Info",
+    "detail": " Sensitive endpoint discovered: http://localhost:3000/rest/memories/"
+  },
+  {
+    "type": "Broken Access Control",
+    "url": "http://localhost:3000/api/Feedbacks",
+    "severity": "Info",
+    "detail": " Sensitive endpoint discovered: http://localhost:3000/api/Feedbacks"
+  },
+  {
+    "type": "Broken Access Control",
+    "url": "http://localhost:3000/rest/products/search?q=",
+    "severity": "Info",
+    "detail": " Sensitive endpoint discovered: http://localhost:3000/rest/products/search?q="
+  },
+  {
+    "type": "Broken Access Control",
+    "url": "http://localhost:3000/rest/admin",
+    "severity": "Info",
+    "detail": " Sensitive endpoint discovered: http://localhost:3000/rest/admin"
+  },
+  {
+    "type": "Broken Access Control",
+    "url": "http://localhost:3000/wp-login.php",
+    "severity": "Info",
+    "detail": " Sensitive endpoint discovered: http://localhost:3000/wp-login.php"
+  },
+  {
+    "type": "Broken Access Control",
+    "url": "http://localhost:3000/actuator/env",
+    "severity": "Info",
+    "detail": " Sensitive endpoint discovered: http://localhost:3000/actuator/env"
+  },
+  {
+    "type": "Broken Access Control",
+    "url": "http://localhost:3000/signup?ref_cta=Sign+up&ref_loc=header+logged+out&ref_page=%2F%3Cuser-name%3E%2F%3Crepo-name%3E&source=header-repo&source_repo=juice-shop%2Fjuice-shop#/login",
+    "severity": "Info",
+    "detail": " Sensitive endpoint discovered: http://localhost:3000/signup?ref_cta=Sign+up&ref_loc=header+logged+out&ref_page=%2F%3Cuser-name%3E%2F%3Crepo-name%3E&source=header-repo&source_repo=juice-shop%2Fjuice-shop#/login"
+  }
+]
