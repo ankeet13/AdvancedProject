@@ -62,7 +62,7 @@ class SeleniumCrawler:
             visited.add(url)
             try:
                 driver.get(url)
-                time.sleep(3)
+                time.sleep(10)
                 soup = BeautifulSoup(driver.page_source, 'html.parser')
             except Exception as e:
                 print(f'[crawler] Error loading {url}: {e}')
