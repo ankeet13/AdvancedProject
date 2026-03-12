@@ -15,7 +15,7 @@ except ImportError:
 
 
 class SeleniumCrawler:
-    def _init_(self, base_url, max_pages=15):
+    def __init__(self, base_url, max_pages=15):
         self.base_url  = base_url.rstrip('/')
         self.max_pages = max_pages
         self.domain    = urlparse(base_url).netloc

@@ -1,0 +1,50 @@
+[
+  {
+    "type": "Security Misconfiguration",
+    "url": "http://localhost:3000",
+    "severity": "High",
+    "detail": "Missing security header: Content-Security-Policy"
+  },
+  {
+    "type": "Security Misconfiguration",
+    "url": "http://localhost:3000",
+    "severity": "High",
+    "detail": "Missing security header: Strict-Transport-Security"
+  },
+  {
+    "type": "Security Misconfiguration",
+    "url": "http://localhost:3000",
+    "severity": "Low",
+    "detail": "Missing security header: Referrer-Policy"
+  },
+  {
+    "type": "Security Misconfiguration",
+    "url": "http://localhost:3000",
+    "severity": "Low",
+    "detail": "Missing security header: Permissions-Policy"
+  },
+  {
+    "type": "Security Misconfiguration",
+    "url": "http://localhost:3000",
+    "severity": "High",
+    "detail": "CORS wildcard (*) \u2014 any website can read this API."
+  },
+  {
+    "type": "Security Misconfiguration",
+    "url": "http://localhost:3000/metrics",
+    "severity": "High",
+    "detail": "Sensitive file accessible: /metrics (text/plain; version=0.0.4; charset=utf-8)"
+  },
+  {
+    "type": "Security Misconfiguration",
+    "url": "http://localhost:3000/api-docs",
+    "severity": "High",
+    "detail": "Sensitive file accessible: /api-docs (text/html; charset=utf-8)"
+  },
+  {
+    "type": "Security Misconfiguration",
+    "url": "http://localhost:3000/robots.txt",
+    "severity": "High",
+    "detail": "Sensitive file accessible: /robots.txt (text/plain; charset=utf-8)"
+  }
+]
