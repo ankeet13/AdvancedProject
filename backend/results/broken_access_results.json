@@ -1,0 +1,86 @@
+[
+  {
+    "type": "Broken Access Control",
+    "url": "http://localhost:3000/rest/user/whoami",
+    "severity": "High",
+    "detail": "Accessible without auth. HTTP 200 + JSON. Content-Type: application/json; charset=utf-8"
+  },
+  {
+    "type": "Broken Access Control",
+    "url": "http://localhost:3000/api/Challenges/?name=Score%20Board",
+    "severity": "High",
+    "detail": "Accessible without auth. HTTP 200 + JSON. Content-Type: application/json; charset=utf-8"
+  },
+  {
+    "type": "Broken Access Control",
+    "url": "http://localhost:3000/api/Challenges",
+    "severity": "High",
+    "detail": "Accessible without auth. HTTP 200 + JSON. Content-Type: application/json; charset=utf-8"
+  },
+  {
+    "type": "Broken Access Control",
+    "url": "http://localhost:3000/rest/memories/",
+    "severity": "High",
+    "detail": "Accessible without auth. HTTP 200 + JSON. Content-Type: application/json; charset=utf-8"
+  },
+  {
+    "type": "Broken Access Control",
+    "url": "http://localhost:3000/api/Quantitys/",
+    "severity": "High",
+    "detail": "Accessible without auth. HTTP 200 + JSON. Content-Type: application/json; charset=utf-8"
+  },
+  {
+    "type": "Broken Access Control",
+    "url": "http://localhost:3000/api/SecurityQuestions/",
+    "severity": "High",
+    "detail": "Accessible without auth. HTTP 200 + JSON. Content-Type: application/json; charset=utf-8"
+  },
+  {
+    "type": "Broken Access Control",
+    "url": "http://localhost:3000/api/Feedbacks/",
+    "severity": "High",
+    "detail": "Accessible without auth. HTTP 200 + JSON. Content-Type: application/json; charset=utf-8"
+  },
+  {
+    "type": "Broken Access Control",
+    "url": "http://localhost:3000/rest/captcha/",
+    "severity": "High",
+    "detail": "Accessible without auth. HTTP 200 + JSON. Content-Type: application/json; charset=utf-8"
+  },
+  {
+    "type": "Broken Access Control",
+    "url": "http://localhost:3000/api/Feedbacks",
+    "severity": "High",
+    "detail": "Accessible without auth. HTTP 200 + JSON. Content-Type: application/json; charset=utf-8"
+  },
+  {
+    "type": "Broken Access Control",
+    "url": "http://localhost:3000/api/SecurityQuestions",
+    "severity": "High",
+    "detail": "Accessible without auth. HTTP 200 + JSON. Content-Type: application/json; charset=utf-8"
+  },
+  {
+    "type": "Broken Access Control",
+    "url": "http://localhost:3000/rest/admin/application-version",
+    "severity": "Critical",
+    "detail": "Accessible without auth. HTTP 200 + JSON. Content-Type: application/json; charset=utf-8"
+  },
+  {
+    "type": "Broken Access Control",
+    "url": "http://localhost:3000/rest/languages",
+    "severity": "High",
+    "detail": "Accessible without auth. HTTP 200 + JSON. Content-Type: application/json; charset=utf-8"
+  },
+  {
+    "type": "Broken Access Control",
+    "url": "http://localhost:3000/rest/products/search?q=",
+    "severity": "High",
+    "detail": "Accessible without auth. HTTP 200 + JSON. Content-Type: application/json; charset=utf-8"
+  },
+  {
+    "type": "Broken Access Control",
+    "url": "http://localhost:3000/rest/admin/application-configuration",
+    "severity": "Critical",
+    "detail": "Accessible without auth. HTTP 200 + JSON. Content-Type: application/json; charset=utf-8"
+  }
+]

@@ -1,5 +1,28 @@
 from crawler.selenium_crawler import SeleniumCrawler
 import requests
+import json, os
+
+
+SEVERITY_MAP = {
+    "rest/admin":   "Critical",
+    "actuator/env": "Critical",
+    ".env":         "Critical",
+    ".git":         "Critical",
+    "admin":        "Critical",
+    "config":       "High",
+    "users":        "High",
+    "api":          "High",
+    "metrics":      "High",
+    "swagger":      "Medium",
+    "robots":       "Low",
+    "sitemap":      "Low",
+}
+def get_severity(ep_url):
+    for keyword, sev in SEVERITY_MAP.items():
+        if keyword in ep_url.lower():
+            return sev
+    return "High"
+
 
 SENSITIVE_KEYWORDS = [
     "admin","dashboard","manage","config","settings",
@@ -50,14 +73,49 @@ def collect_sensitive_endpoints(base_url, crawl_results):
             pass
     return list(all_ep)
 
+def test_access(ep_url):
+    try:
+        resp    = requests.get(
+            ep_url,
+            headers={"Accept": "application/json"},
+            timeout=10,
+        )
+        ct      = resp.headers.get("Content-Type", "")
+        is_json = "application/json" in ct
+
+        if resp.status_code == 200 and is_json:
+            return {
+                "type":     "Broken Access Control",
+                "url":      ep_url,
+                "severity": get_severity(ep_url),
+                "detail":   f"Accessible without auth. HTTP 200 + JSON. Content-Type: {ct}",
+            }
+        elif resp.status_code == 200 and not is_json:
+            print(f"[broken_access] Skipped SPA false positive: {ep_url}")
+        else:
+            print(f"[broken_access] Protected HTTP {resp.status_code}: {ep_url}")
+    except Exception as e:
+        print(f"[broken_access] Error on {ep_url}: {e}")
+    return None
+
 
 def scan(url):
     crawler = SeleniumCrawler(url, max_pages=15)
     crawl_results = crawler.crawl()
     endpoints = collect_sensitive_endpoints(url, crawl_results)
     print(f"[broken_access]  found {len(endpoints)} sensitive endpoints")
-    return [{
-        "type": "Broken Access Control", "url": ep,
-        "severity": "Info",
-        "detail": f" Sensitive endpoint discovered: {ep}"
-    } for ep in endpoints]
+    findings = []
+    for ep in endpoints:
+        result = test_access(ep)
+        if result:
+            findings.append(result)
+    print(f"[broken_access] Confirmed: {len(findings)} vulnerabilities")
+    
+    # Save results to JSON file(Just for demonstration, can be removed later)
+    os.makedirs("results", exist_ok=True)
+    with open("results/broken_access_results.json", "w") as f:
+        json.dump(findings, f, indent=2)
+    print(f"[broken_access] Results saved to results/broken_access_results.json")
+
+    return findings
+
