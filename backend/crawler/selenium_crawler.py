@@ -107,4 +107,4 @@ class SeleniumCrawler:
         print(f'[crawler] Done — {len(results["forms"])} forms, '
               f'{len(results["links"])} links, '
               f'{len(results["api_calls"])} API calls')
-        return results
+        return results 

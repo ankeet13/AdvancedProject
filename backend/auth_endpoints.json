@@ -1,0 +1,200 @@
+[
+  {
+    "type": "Authentication Failure",
+    "url": "http://localhost:3000#/login",
+    "severity": "Info",
+    "detail": "Auth endpoint via selenium_auth_link. Method: POST"
+  },
+  {
+    "type": "Authentication Failure",
+    "url": "http://localhost:3000#/forgot-password",
+    "severity": "Info",
+    "detail": "Auth endpoint via selenium_auth_link. Method: POST"
+  },
+  {
+    "type": "Authentication Failure",
+    "url": "http://localhost:3000#/register",
+    "severity": "Info",
+    "detail": "Auth endpoint via selenium_auth_link. Method: POST"
+  },
+  {
+    "type": "Authentication Failure",
+    "url": "http://localhost:3000/login?return_to=https%3A%2F%2Fgithub.com%2Fjuice-shop%2Fjuice-shop",
+    "severity": "Info",
+    "detail": "Auth endpoint via selenium_auth_link. Method: POST"
+  },
+  {
+    "type": "Authentication Failure",
+    "url": "http://localhost:3000/signup?ref_cta=Sign+up&ref_loc=header+logged+out&ref_page=%2F%3Cuser-name%3E%2F%3Crepo-name%3E&source=header-repo&source_repo=juice-shop%2Fjuice-shop",
+    "severity": "Info",
+    "detail": "Auth endpoint via selenium_auth_link. Method: POST"
+  },
+  {
+    "type": "Authentication Failure",
+    "url": "http://localhost:3000/login?return_to=%2Fjuice-shop%2Fjuice-shop",
+    "severity": "Info",
+    "detail": "Auth endpoint via selenium_auth_link. Method: POST"
+  },
+  {
+    "type": "Authentication Failure",
+    "url": "http://localhost:3000/juice-shop/juice-shop/commits?author=bkimminich",
+    "severity": "Info",
+    "detail": "Auth endpoint via selenium_auth_link. Method: POST"
+  },
+  {
+    "type": "Authentication Failure",
+    "url": "http://localhost:3000/#/login",
+    "severity": "Info",
+    "detail": "Auth endpoint via selenium_auth_link. Method: POST"
+  },
+  {
+    "type": "Authentication Failure",
+    "url": "http://localhost:3000/login?return_to=https%3A%2F%2Fgithub.com%2Fjuice-shop%2Fjuice-shop#/login",
+    "severity": "Info",
+    "detail": "Auth endpoint via selenium_auth_link. Method: POST"
+  },
+  {
+    "type": "Authentication Failure",
+    "url": "http://localhost:3000/login?return_to=https%3A%2F%2Fgithub.com%2Fjuice-shop%2Fjuice-shop#/contact",
+    "severity": "Info",
+    "detail": "Auth endpoint via selenium_auth_link. Method: POST"
+  },
+  {
+    "type": "Authentication Failure",
+    "url": "http://localhost:3000/login?return_to=https%3A%2F%2Fgithub.com%2Fjuice-shop%2Fjuice-shop#/about",
+    "severity": "Info",
+    "detail": "Auth endpoint via selenium_auth_link. Method: POST"
+  },
+  {
+    "type": "Authentication Failure",
+    "url": "http://localhost:3000/login?return_to=https%3A%2F%2Fgithub.com%2Fjuice-shop%2Fjuice-shop#/photo-wall",
+    "severity": "Info",
+    "detail": "Auth endpoint via selenium_auth_link. Method: POST"
+  },
+  {
+    "type": "Authentication Failure",
+    "url": "http://localhost:3000/signup?ref_cta=Sign+up&ref_loc=header+logged+out&ref_page=%2F%3Cuser-name%3E%2F%3Crepo-name%3E&source=header-repo&source_repo=juice-shop%2Fjuice-shop#/login",
+    "severity": "Info",
+    "detail": "Auth endpoint via selenium_auth_link. Method: POST"
+  },
+  {
+    "type": "Authentication Failure",
+    "url": "http://localhost:3000/signup?ref_cta=Sign+up&ref_loc=header+logged+out&ref_page=%2F%3Cuser-name%3E%2F%3Crepo-name%3E&source=header-repo&source_repo=juice-shop%2Fjuice-shop#/contact",
+    "severity": "Info",
+    "detail": "Auth endpoint via selenium_auth_link. Method: POST"
+  },
+  {
+    "type": "Authentication Failure",
+    "url": "http://localhost:3000/signup?ref_cta=Sign+up&ref_loc=header+logged+out&ref_page=%2F%3Cuser-name%3E%2F%3Crepo-name%3E&source=header-repo&source_repo=juice-shop%2Fjuice-shop#/about",
+    "severity": "Info",
+    "detail": "Auth endpoint via selenium_auth_link. Method: POST"
+  },
+  {
+    "type": "Authentication Failure",
+    "url": "http://localhost:3000/signup?ref_cta=Sign+up&ref_loc=header+logged+out&ref_page=%2F%3Cuser-name%3E%2F%3Crepo-name%3E&source=header-repo&source_repo=juice-shop%2Fjuice-shop#/photo-wall",
+    "severity": "Info",
+    "detail": "Auth endpoint via selenium_auth_link. Method: POST"
+  },
+  {
+    "type": "Authentication Failure",
+    "url": "http://localhost:3000/juice-shop#/login",
+    "severity": "Info",
+    "detail": "Auth endpoint via selenium_auth_link. Method: POST"
+  },
+  {
+    "type": "Authentication Failure",
+    "url": "http://localhost:3000/login",
+    "severity": "Info",
+    "detail": "Auth endpoint via wordlist. Method: POST"
+  },
+  {
+    "type": "Authentication Failure",
+    "url": "http://localhost:3000/signin",
+    "severity": "Info",
+    "detail": "Auth endpoint via wordlist. Method: POST"
+  },
+  {
+    "type": "Authentication Failure",
+    "url": "http://localhost:3000/auth/login",
+    "severity": "Info",
+    "detail": "Auth endpoint via wordlist. Method: POST"
+  },
+  {
+    "type": "Authentication Failure",
+    "url": "http://localhost:3000/user/login",
+    "severity": "Info",
+    "detail": "Auth endpoint via wordlist. Method: POST"
+  },
+  {
+    "type": "Authentication Failure",
+    "url": "http://localhost:3000/account/login",
+    "severity": "Info",
+    "detail": "Auth endpoint via wordlist. Method: POST"
+  },
+  {
+    "type": "Authentication Failure",
+    "url": "http://localhost:3000/admin/login",
+    "severity": "Info",
+    "detail": "Auth endpoint via wordlist. Method: POST"
+  },
+  {
+    "type": "Authentication Failure",
+    "url": "http://localhost:3000/wp-login.php",
+    "severity": "Info",
+    "detail": "Auth endpoint via wordlist. Method: POST"
+  },
+  {
+    "type": "Authentication Failure",
+    "url": "http://localhost:3000/register",
+    "severity": "Info",
+    "detail": "Auth endpoint via wordlist. Method: POST"
+  },
+  {
+    "type": "Authentication Failure",
+    "url": "http://localhost:3000/signup",
+    "severity": "Info",
+    "detail": "Auth endpoint via wordlist. Method: POST"
+  },
+  {
+    "type": "Authentication Failure",
+    "url": "http://localhost:3000/api/login",
+    "severity": "Info",
+    "detail": "Auth endpoint via wordlist. Method: POST"
+  },
+  {
+    "type": "Authentication Failure",
+    "url": "http://localhost:3000/api/auth",
+    "severity": "Info",
+    "detail": "Auth endpoint via wordlist. Method: POST"
+  },
+  {
+    "type": "Authentication Failure",
+    "url": "http://localhost:3000/api/auth/login",
+    "severity": "Info",
+    "detail": "Auth endpoint via wordlist. Method: POST"
+  },
+  {
+    "type": "Authentication Failure",
+    "url": "http://localhost:3000/api/v1/login",
+    "severity": "Info",
+    "detail": "Auth endpoint via wordlist. Method: POST"
+  },
+  {
+    "type": "Authentication Failure",
+    "url": "http://localhost:3000/api/v1/auth",
+    "severity": "Info",
+    "detail": "Auth endpoint via wordlist. Method: POST"
+  },
+  {
+    "type": "Authentication Failure",
+    "url": "http://localhost:3000/api/token",
+    "severity": "Info",
+    "detail": "Auth endpoint via wordlist. Method: POST"
+  },
+  {
+    "type": "Authentication Failure",
+    "url": "http://localhost:3000/rest/user/login",
+    "severity": "Info",
+    "detail": "Auth endpoint via wordlist. Method: POST"
+  }
+]
