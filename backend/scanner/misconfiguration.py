@@ -69,4 +69,3 @@ def scan(url):
 
     print(f"[misconfiguration] Found {len(findings)} items")
     return findings
-
