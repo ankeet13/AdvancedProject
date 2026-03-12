@@ -63,7 +63,7 @@ def collect_input_endpoints(base_url, crawl_results):
 def scan(url):
     crawler = SeleniumCrawler(url, max_pages=15)
     crawl_results = crawler.crawl()
-    endpoints = collect_input_endpoints(url, crawl_results)
+    endpoints = collect_input_endpoints(url, crawl_results) 
     print(f"[sql_injection] Found {len(endpoints)} input endpoints")
     return [{
         "type": "SQL Injection", "url": ep["url"],
