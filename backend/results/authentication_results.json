@@ -1,0 +1,206 @@
+[
+  {
+    "type": "Authentication Failure",
+    "url": "http://localhost:3000#/login",
+    "severity": "High",
+    "detail": "No lockout after 10 failed login attempts \u2014 brute force possible."
+  },
+  {
+    "type": "Authentication Failure",
+    "url": "http://localhost:3000#/forgot-password",
+    "severity": "High",
+    "detail": "No lockout after 10 failed login attempts \u2014 brute force possible."
+  },
+  {
+    "type": "Authentication Failure",
+    "url": "http://localhost:3000#/register",
+    "severity": "High",
+    "detail": "No lockout after 10 failed login attempts \u2014 brute force possible."
+  },
+  {
+    "type": "Authentication Failure",
+    "url": "http://localhost:3000/login?return_to=https%3A%2F%2Fgithub.com%2Fjuice-shop%2Fjuice-shop",
+    "severity": "High",
+    "detail": "No lockout after 10 failed login attempts \u2014 brute force possible."
+  },
+  {
+    "type": "Authentication Failure",
+    "url": "http://localhost:3000/signup?ref_cta=Sign+up&ref_loc=header+logged+out&ref_page=%2F%3Cuser-name%3E%2F%3Crepo-name%3E&source=header-repo&source_repo=juice-shop%2Fjuice-shop",
+    "severity": "High",
+    "detail": "No lockout after 10 failed login attempts \u2014 brute force possible."
+  },
+  {
+    "type": "Authentication Failure",
+    "url": "http://localhost:3000/login?return_to=%2Fjuice-shop%2Fjuice-shop",
+    "severity": "High",
+    "detail": "No lockout after 10 failed login attempts \u2014 brute force possible."
+  },
+  {
+    "type": "Authentication Failure",
+    "url": "http://localhost:3000/juice-shop/juice-shop/commits?author=bkimminich",
+    "severity": "High",
+    "detail": "No lockout after 10 failed login attempts \u2014 brute force possible."
+  },
+  {
+    "type": "Authentication Failure",
+    "url": "http://localhost:3000/#/login",
+    "severity": "High",
+    "detail": "No lockout after 10 failed login attempts \u2014 brute force possible."
+  },
+  {
+    "type": "Authentication Failure",
+    "url": "http://localhost:3000/login?return_to=https%3A%2F%2Fgithub.com%2Fjuice-shop%2Fjuice-shop#/login",
+    "severity": "High",
+    "detail": "No lockout after 10 failed login attempts \u2014 brute force possible."
+  },
+  {
+    "type": "Authentication Failure",
+    "url": "http://localhost:3000/login?return_to=https%3A%2F%2Fgithub.com%2Fjuice-shop%2Fjuice-shop#/contact",
+    "severity": "High",
+    "detail": "No lockout after 10 failed login attempts \u2014 brute force possible."
+  },
+  {
+    "type": "Authentication Failure",
+    "url": "http://localhost:3000/login?return_to=https%3A%2F%2Fgithub.com%2Fjuice-shop%2Fjuice-shop#/about",
+    "severity": "High",
+    "detail": "No lockout after 10 failed login attempts \u2014 brute force possible."
+  },
+  {
+    "type": "Authentication Failure",
+    "url": "http://localhost:3000/login?return_to=https%3A%2F%2Fgithub.com%2Fjuice-shop%2Fjuice-shop#/photo-wall",
+    "severity": "High",
+    "detail": "No lockout after 10 failed login attempts \u2014 brute force possible."
+  },
+  {
+    "type": "Authentication Failure",
+    "url": "http://localhost:3000/signup?ref_cta=Sign+up&ref_loc=header+logged+out&ref_page=%2F%3Cuser-name%3E%2F%3Crepo-name%3E&source=header-repo&source_repo=juice-shop%2Fjuice-shop#/login",
+    "severity": "High",
+    "detail": "No lockout after 10 failed login attempts \u2014 brute force possible."
+  },
+  {
+    "type": "Authentication Failure",
+    "url": "http://localhost:3000/signup?ref_cta=Sign+up&ref_loc=header+logged+out&ref_page=%2F%3Cuser-name%3E%2F%3Crepo-name%3E&source=header-repo&source_repo=juice-shop%2Fjuice-shop#/contact",
+    "severity": "High",
+    "detail": "No lockout after 10 failed login attempts \u2014 brute force possible."
+  },
+  {
+    "type": "Authentication Failure",
+    "url": "http://localhost:3000/signup?ref_cta=Sign+up&ref_loc=header+logged+out&ref_page=%2F%3Cuser-name%3E%2F%3Crepo-name%3E&source=header-repo&source_repo=juice-shop%2Fjuice-shop#/about",
+    "severity": "High",
+    "detail": "No lockout after 10 failed login attempts \u2014 brute force possible."
+  },
+  {
+    "type": "Authentication Failure",
+    "url": "http://localhost:3000/signup?ref_cta=Sign+up&ref_loc=header+logged+out&ref_page=%2F%3Cuser-name%3E%2F%3Crepo-name%3E&source=header-repo&source_repo=juice-shop%2Fjuice-shop#/photo-wall",
+    "severity": "High",
+    "detail": "No lockout after 10 failed login attempts \u2014 brute force possible."
+  },
+  {
+    "type": "Authentication Failure",
+    "url": "http://localhost:3000/juice-shop#/login",
+    "severity": "High",
+    "detail": "No lockout after 10 failed login attempts \u2014 brute force possible."
+  },
+  {
+    "type": "Authentication Failure",
+    "url": "http://localhost:3000/login",
+    "severity": "High",
+    "detail": "No lockout after 10 failed login attempts \u2014 brute force possible."
+  },
+  {
+    "type": "Authentication Failure",
+    "url": "http://localhost:3000/signin",
+    "severity": "High",
+    "detail": "No lockout after 10 failed login attempts \u2014 brute force possible."
+  },
+  {
+    "type": "Authentication Failure",
+    "url": "http://localhost:3000/auth/login",
+    "severity": "High",
+    "detail": "No lockout after 10 failed login attempts \u2014 brute force possible."
+  },
+  {
+    "type": "Authentication Failure",
+    "url": "http://localhost:3000/user/login",
+    "severity": "High",
+    "detail": "No lockout after 10 failed login attempts \u2014 brute force possible."
+  },
+  {
+    "type": "Authentication Failure",
+    "url": "http://localhost:3000/account/login",
+    "severity": "High",
+    "detail": "No lockout after 10 failed login attempts \u2014 brute force possible."
+  },
+  {
+    "type": "Authentication Failure",
+    "url": "http://localhost:3000/admin/login",
+    "severity": "High",
+    "detail": "No lockout after 10 failed login attempts \u2014 brute force possible."
+  },
+  {
+    "type": "Authentication Failure",
+    "url": "http://localhost:3000/wp-login.php",
+    "severity": "High",
+    "detail": "No lockout after 10 failed login attempts \u2014 brute force possible."
+  },
+  {
+    "type": "Authentication Failure",
+    "url": "http://localhost:3000/register",
+    "severity": "High",
+    "detail": "No lockout after 10 failed login attempts \u2014 brute force possible."
+  },
+  {
+    "type": "Authentication Failure",
+    "url": "http://localhost:3000/signup",
+    "severity": "High",
+    "detail": "No lockout after 10 failed login attempts \u2014 brute force possible."
+  },
+  {
+    "type": "Authentication Failure",
+    "url": "http://localhost:3000/api/login",
+    "severity": "High",
+    "detail": "No lockout after 10 failed login attempts \u2014 brute force possible."
+  },
+  {
+    "type": "Authentication Failure",
+    "url": "http://localhost:3000/api/auth",
+    "severity": "High",
+    "detail": "No lockout after 10 failed login attempts \u2014 brute force possible."
+  },
+  {
+    "type": "Authentication Failure",
+    "url": "http://localhost:3000/api/auth/login",
+    "severity": "High",
+    "detail": "No lockout after 10 failed login attempts \u2014 brute force possible."
+  },
+  {
+    "type": "Authentication Failure",
+    "url": "http://localhost:3000/api/v1/login",
+    "severity": "High",
+    "detail": "No lockout after 10 failed login attempts \u2014 brute force possible."
+  },
+  {
+    "type": "Authentication Failure",
+    "url": "http://localhost:3000/api/v1/auth",
+    "severity": "High",
+    "detail": "No lockout after 10 failed login attempts \u2014 brute force possible."
+  },
+  {
+    "type": "Authentication Failure",
+    "url": "http://localhost:3000/api/token",
+    "severity": "High",
+    "detail": "No lockout after 10 failed login attempts \u2014 brute force possible."
+  },
+  {
+    "type": "Authentication Failure",
+    "url": "http://localhost:3000/rest/user/login",
+    "severity": "Critical",
+    "detail": "Weak credentials accepted: admin@juice-sh.op / admin123"
+  },
+  {
+    "type": "Authentication Failure",
+    "url": "http://localhost:3000/rest/user/login",
+    "severity": "High",
+    "detail": "No lockout after 10 failed login attempts \u2014 brute force possible."
+  }
+]

@@ -1,0 +1,440 @@
+[
+  {
+    "type": "SQL Injection",
+    "url": "http://localhost:3000/redirect?to=https://github.com/juice-shop/juice-shop",
+    "severity": "Critical",
+    "detail": "SQL Injection CONFIRMED via payload '''. DB error: 'sqlite'"
+  },
+  {
+    "type": "SQL Injection",
+    "url": "http://localhost:3000/search/feedback",
+    "severity": "Medium",
+    "detail": "Tested 10 payloads \u2014 no DB error detected."
+  },
+  {
+    "type": "SQL Injection",
+    "url": "http://localhost:3000/search/custom_scopes",
+    "severity": "Medium",
+    "detail": "Tested 10 payloads \u2014 no DB error detected."
+  },
+  {
+    "type": "SQL Injection",
+    "url": "http://localhost:3000/redirect?to=https://github.com/juice-shop/juice-shop#start-of-content",
+    "severity": "Critical",
+    "detail": "SQL Injection CONFIRMED via payload '''. DB error: 'sqlite'"
+  },
+  {
+    "type": "SQL Injection",
+    "url": "http://localhost:3000/login?return_to=https%3A%2F%2Fgithub.com%2Fjuice-shop%2Fjuice-shop",
+    "severity": "Medium",
+    "detail": "Tested 10 payloads \u2014 no DB error detected."
+  },
+  {
+    "type": "SQL Injection",
+    "url": "http://localhost:3000/signup?ref_cta=Sign+up&ref_loc=header+logged+out&ref_page=%2F%3Cuser-name%3E%2F%3Crepo-name%3E&source=header-repo&source_repo=juice-shop%2Fjuice-shop",
+    "severity": "Medium",
+    "detail": "Tested 10 payloads \u2014 no DB error detected."
+  },
+  {
+    "type": "SQL Injection",
+    "url": "http://localhost:3000/contact/report-abuse?report=juice-shop%2Fjuice-shop+%28Repository+Funding+Links%29",
+    "severity": "Medium",
+    "detail": "Tested 10 payloads \u2014 no DB error detected."
+  },
+  {
+    "type": "SQL Injection",
+    "url": "http://localhost:3000/login?return_to=%2Fjuice-shop%2Fjuice-shop",
+    "severity": "Medium",
+    "detail": "Tested 10 payloads \u2014 no DB error detected."
+  },
+  {
+    "type": "SQL Injection",
+    "url": "http://localhost:3000/juice-shop/juice-shop/commits?author=bkimminich",
+    "severity": "Medium",
+    "detail": "Tested 10 payloads \u2014 no DB error detected."
+  },
+  {
+    "type": "SQL Injection",
+    "url": "http://localhost:3000/redirect?to=https://github.com/juice-shop/juice-shop#-owasp-juice-shop",
+    "severity": "Medium",
+    "detail": "Tested 10 payloads \u2014 no DB error detected."
+  },
+  {
+    "type": "SQL Injection",
+    "url": "http://localhost:3000/redirect?to=https://github.com/juice-shop/juice-shop#table-of-contents",
+    "severity": "Medium",
+    "detail": "Tested 10 payloads \u2014 no DB error detected."
+  },
+  {
+    "type": "SQL Injection",
+    "url": "http://localhost:3000/redirect?to=https://github.com/juice-shop/juice-shop#setup",
+    "severity": "Medium",
+    "detail": "Tested 10 payloads \u2014 no DB error detected."
+  },
+  {
+    "type": "SQL Injection",
+    "url": "http://localhost:3000/redirect?to=https://github.com/juice-shop/juice-shop#from-sources",
+    "severity": "Medium",
+    "detail": "Tested 10 payloads \u2014 no DB error detected."
+  },
+  {
+    "type": "SQL Injection",
+    "url": "http://localhost:3000/redirect?to=https://github.com/juice-shop/juice-shop#packaged-distributions",
+    "severity": "Medium",
+    "detail": "Tested 10 payloads \u2014 no DB error detected."
+  },
+  {
+    "type": "SQL Injection",
+    "url": "http://localhost:3000/redirect?to=https://github.com/juice-shop/juice-shop#docker-container",
+    "severity": "Medium",
+    "detail": "Tested 10 payloads \u2014 no DB error detected."
+  },
+  {
+    "type": "SQL Injection",
+    "url": "http://localhost:3000/redirect?to=https://github.com/juice-shop/juice-shop#vagrant",
+    "severity": "Medium",
+    "detail": "Tested 10 payloads \u2014 no DB error detected."
+  },
+  {
+    "type": "SQL Injection",
+    "url": "http://localhost:3000/redirect?to=https://github.com/juice-shop/juice-shop#demo",
+    "severity": "Medium",
+    "detail": "Tested 10 payloads \u2014 no DB error detected."
+  },
+  {
+    "type": "SQL Injection",
+    "url": "http://localhost:3000/redirect?to=https://github.com/juice-shop/juice-shop#documentation",
+    "severity": "Medium",
+    "detail": "Tested 10 payloads \u2014 no DB error detected."
+  },
+  {
+    "type": "SQL Injection",
+    "url": "http://localhost:3000/redirect?to=https://github.com/juice-shop/juice-shop#nodejs-version-compatibility",
+    "severity": "Medium",
+    "detail": "Tested 10 payloads \u2014 no DB error detected."
+  },
+  {
+    "type": "SQL Injection",
+    "url": "http://localhost:3000/redirect?to=https://github.com/juice-shop/juice-shop#troubleshooting",
+    "severity": "Medium",
+    "detail": "Tested 10 payloads \u2014 no DB error detected."
+  },
+  {
+    "type": "SQL Injection",
+    "url": "http://localhost:3000/redirect?to=https://github.com/juice-shop/juice-shop#official-companion-guide",
+    "severity": "Medium",
+    "detail": "Tested 10 payloads \u2014 no DB error detected."
+  },
+  {
+    "type": "SQL Injection",
+    "url": "http://localhost:3000/redirect?to=https://github.com/juice-shop/juice-shop#contributing",
+    "severity": "Medium",
+    "detail": "Tested 10 payloads \u2014 no DB error detected."
+  },
+  {
+    "type": "SQL Injection",
+    "url": "http://localhost:3000/redirect?to=https://github.com/juice-shop/juice-shop#references",
+    "severity": "Medium",
+    "detail": "Tested 10 payloads \u2014 no DB error detected."
+  },
+  {
+    "type": "SQL Injection",
+    "url": "http://localhost:3000/redirect?to=https://github.com/juice-shop/juice-shop#merchandise",
+    "severity": "Medium",
+    "detail": "Tested 10 payloads \u2014 no DB error detected."
+  },
+  {
+    "type": "SQL Injection",
+    "url": "http://localhost:3000/redirect?to=https://github.com/juice-shop/juice-shop#donations",
+    "severity": "Medium",
+    "detail": "Tested 10 payloads \u2014 no DB error detected."
+  },
+  {
+    "type": "SQL Injection",
+    "url": "http://localhost:3000/redirect?to=https://github.com/juice-shop/juice-shop#contributors",
+    "severity": "Medium",
+    "detail": "Tested 10 payloads \u2014 no DB error detected."
+  },
+  {
+    "type": "SQL Injection",
+    "url": "http://localhost:3000/redirect?to=https://github.com/juice-shop/juice-shop#licensing",
+    "severity": "Medium",
+    "detail": "Tested 10 payloads \u2014 no DB error detected."
+  },
+  {
+    "type": "SQL Injection",
+    "url": "http://localhost:3000/redirect?to=https://github.com/juice-shop/juice-shop#readme-ov-file",
+    "severity": "Medium",
+    "detail": "Tested 10 payloads \u2014 no DB error detected."
+  },
+  {
+    "type": "SQL Injection",
+    "url": "http://localhost:3000/redirect?to=https://github.com/juice-shop/juice-shop#MIT-1-ov-file",
+    "severity": "Medium",
+    "detail": "Tested 10 payloads \u2014 no DB error detected."
+  },
+  {
+    "type": "SQL Injection",
+    "url": "http://localhost:3000/redirect?to=https://github.com/juice-shop/juice-shop#coc-ov-file",
+    "severity": "Medium",
+    "detail": "Tested 10 payloads \u2014 no DB error detected."
+  },
+  {
+    "type": "SQL Injection",
+    "url": "http://localhost:3000/redirect?to=https://github.com/juice-shop/juice-shop#contributing-ov-file",
+    "severity": "Medium",
+    "detail": "Tested 10 payloads \u2014 no DB error detected."
+  },
+  {
+    "type": "SQL Injection",
+    "url": "http://localhost:3000/redirect?to=https://github.com/juice-shop/juice-shop#security-ov-file",
+    "severity": "Medium",
+    "detail": "Tested 10 payloads \u2014 no DB error detected."
+  },
+  {
+    "type": "SQL Injection",
+    "url": "http://localhost:3000/contact/report-content?content_url=https%3A%2F%2Fgithub.com%2Fjuice-shop%2Fjuice-shop&report=juice-shop+%28user%29",
+    "severity": "Medium",
+    "detail": "Tested 10 payloads \u2014 no DB error detected."
+  },
+  {
+    "type": "SQL Injection",
+    "url": "http://localhost:3000/juice-shop/juice-shop/search?l=typescript",
+    "severity": "Medium",
+    "detail": "Tested 10 payloads \u2014 no DB error detected."
+  },
+  {
+    "type": "SQL Injection",
+    "url": "http://localhost:3000/juice-shop/juice-shop/search?l=javascript",
+    "severity": "Medium",
+    "detail": "Tested 10 payloads \u2014 no DB error detected."
+  },
+  {
+    "type": "SQL Injection",
+    "url": "http://localhost:3000/juice-shop/juice-shop/search?l=html",
+    "severity": "Medium",
+    "detail": "Tested 10 payloads \u2014 no DB error detected."
+  },
+  {
+    "type": "SQL Injection",
+    "url": "http://localhost:3000/juice-shop/juice-shop/search?l=scss",
+    "severity": "Medium",
+    "detail": "Tested 10 payloads \u2014 no DB error detected."
+  },
+  {
+    "type": "SQL Injection",
+    "url": "http://localhost:3000/juice-shop/juice-shop/search?l=solidity",
+    "severity": "Medium",
+    "detail": "Tested 10 payloads \u2014 no DB error detected."
+  },
+  {
+    "type": "SQL Injection",
+    "url": "http://localhost:3000/juice-shop/juice-shop/search?l=pug",
+    "severity": "Medium",
+    "detail": "Tested 10 payloads \u2014 no DB error detected."
+  },
+  {
+    "type": "SQL Injection",
+    "url": "http://localhost:3000/login?return_to=https%3A%2F%2Fgithub.com%2Fjuice-shop%2Fjuice-shop#/login",
+    "severity": "Medium",
+    "detail": "Tested 10 payloads \u2014 no DB error detected."
+  },
+  {
+    "type": "SQL Injection",
+    "url": "http://localhost:3000/login?return_to=https%3A%2F%2Fgithub.com%2Fjuice-shop%2Fjuice-shop#/contact",
+    "severity": "Medium",
+    "detail": "Tested 10 payloads \u2014 no DB error detected."
+  },
+  {
+    "type": "SQL Injection",
+    "url": "http://localhost:3000/login?return_to=https%3A%2F%2Fgithub.com%2Fjuice-shop%2Fjuice-shop#/about",
+    "severity": "Medium",
+    "detail": "Tested 10 payloads \u2014 no DB error detected."
+  },
+  {
+    "type": "SQL Injection",
+    "url": "http://localhost:3000/login?return_to=https%3A%2F%2Fgithub.com%2Fjuice-shop%2Fjuice-shop#/photo-wall",
+    "severity": "Medium",
+    "detail": "Tested 10 payloads \u2014 no DB error detected."
+  },
+  {
+    "type": "SQL Injection",
+    "url": "http://localhost:3000/signup?ref_cta=Sign+up&ref_loc=header+logged+out&ref_page=%2F%3Cuser-name%3E%2F%3Crepo-name%3E&source=header-repo&source_repo=juice-shop%2Fjuice-shop#/login",
+    "severity": "Medium",
+    "detail": "Tested 10 payloads \u2014 no DB error detected."
+  },
+  {
+    "type": "SQL Injection",
+    "url": "http://localhost:3000/signup?ref_cta=Sign+up&ref_loc=header+logged+out&ref_page=%2F%3Cuser-name%3E%2F%3Crepo-name%3E&source=header-repo&source_repo=juice-shop%2Fjuice-shop#/contact",
+    "severity": "Medium",
+    "detail": "Tested 10 payloads \u2014 no DB error detected."
+  },
+  {
+    "type": "SQL Injection",
+    "url": "http://localhost:3000/signup?ref_cta=Sign+up&ref_loc=header+logged+out&ref_page=%2F%3Cuser-name%3E%2F%3Crepo-name%3E&source=header-repo&source_repo=juice-shop%2Fjuice-shop#/about",
+    "severity": "Medium",
+    "detail": "Tested 10 payloads \u2014 no DB error detected."
+  },
+  {
+    "type": "SQL Injection",
+    "url": "http://localhost:3000/signup?ref_cta=Sign+up&ref_loc=header+logged+out&ref_page=%2F%3Cuser-name%3E%2F%3Crepo-name%3E&source=header-repo&source_repo=juice-shop%2Fjuice-shop#/photo-wall",
+    "severity": "Medium",
+    "detail": "Tested 10 payloads \u2014 no DB error detected."
+  },
+  {
+    "type": "SQL Injection",
+    "url": "http://localhost:3000/rest/admin/application-version",
+    "severity": "Medium",
+    "detail": "Tested 10 payloads \u2014 no DB error detected."
+  },
+  {
+    "type": "SQL Injection",
+    "url": "http://localhost:3000/api/Quantitys/",
+    "severity": "Medium",
+    "detail": "Tested 10 payloads \u2014 no DB error detected."
+  },
+  {
+    "type": "SQL Injection",
+    "url": "http://localhost:3000/rest/languages",
+    "severity": "Medium",
+    "detail": "Tested 10 payloads \u2014 no DB error detected."
+  },
+  {
+    "type": "SQL Injection",
+    "url": "http://localhost:3000/rest/admin/application-configuration",
+    "severity": "Medium",
+    "detail": "Tested 10 payloads \u2014 no DB error detected."
+  },
+  {
+    "type": "SQL Injection",
+    "url": "http://localhost:3000/rest/products/search?q=",
+    "severity": "Critical",
+    "detail": "SQL Injection CONFIRMED via payload '''. DB error: 'syntax error'"
+  },
+  {
+    "type": "SQL Injection",
+    "url": "http://localhost:3000/api/Challenges/?name=Score%20Board",
+    "severity": "Medium",
+    "detail": "Tested 10 payloads \u2014 no DB error detected."
+  },
+  {
+    "type": "SQL Injection",
+    "url": "http://localhost:3000/rest/user/whoami",
+    "severity": "Medium",
+    "detail": "Tested 10 payloads \u2014 no DB error detected."
+  },
+  {
+    "type": "SQL Injection",
+    "url": "http://localhost:3000/rest/captcha/",
+    "severity": "Medium",
+    "detail": "Tested 10 payloads \u2014 no DB error detected."
+  },
+  {
+    "type": "SQL Injection",
+    "url": "http://localhost:3000/api/Feedbacks/",
+    "severity": "Medium",
+    "detail": "Tested 10 payloads \u2014 no DB error detected."
+  },
+  {
+    "type": "SQL Injection",
+    "url": "http://localhost:3000/rest/memories/",
+    "severity": "Medium",
+    "detail": "Tested 10 payloads \u2014 no DB error detected."
+  },
+  {
+    "type": "SQL Injection",
+    "url": "http://localhost:3000/api/SecurityQuestions/",
+    "severity": "Medium",
+    "detail": "Tested 10 payloads \u2014 no DB error detected."
+  },
+  {
+    "type": "SQL Injection",
+    "url": "http://localhost:3000/search",
+    "severity": "Medium",
+    "detail": "Tested 10 payloads \u2014 no DB error detected."
+  },
+  {
+    "type": "SQL Injection",
+    "url": "http://localhost:3000/search?q=test",
+    "severity": "Medium",
+    "detail": "Tested 10 payloads \u2014 no DB error detected."
+  },
+  {
+    "type": "SQL Injection",
+    "url": "http://localhost:3000/?s=test",
+    "severity": "Medium",
+    "detail": "Tested 10 payloads \u2014 no DB error detected."
+  },
+  {
+    "type": "SQL Injection",
+    "url": "http://localhost:3000/?q=test",
+    "severity": "Medium",
+    "detail": "Tested 10 payloads \u2014 no DB error detected."
+  },
+  {
+    "type": "SQL Injection",
+    "url": "http://localhost:3000/login",
+    "severity": "Medium",
+    "detail": "Tested 10 payloads \u2014 no DB error detected."
+  },
+  {
+    "type": "SQL Injection",
+    "url": "http://localhost:3000/signin",
+    "severity": "Medium",
+    "detail": "Tested 10 payloads \u2014 no DB error detected."
+  },
+  {
+    "type": "SQL Injection",
+    "url": "http://localhost:3000/register",
+    "severity": "Medium",
+    "detail": "Tested 10 payloads \u2014 no DB error detected."
+  },
+  {
+    "type": "SQL Injection",
+    "url": "http://localhost:3000/signup",
+    "severity": "Medium",
+    "detail": "Tested 10 payloads \u2014 no DB error detected."
+  },
+  {
+    "type": "SQL Injection",
+    "url": "http://localhost:3000/api/search",
+    "severity": "Medium",
+    "detail": "Tested 10 payloads \u2014 no DB error detected."
+  },
+  {
+    "type": "SQL Injection",
+    "url": "http://localhost:3000/api/users",
+    "severity": "Medium",
+    "detail": "Tested 10 payloads \u2014 no DB error detected."
+  },
+  {
+    "type": "SQL Injection",
+    "url": "http://localhost:3000/api/login",
+    "severity": "Medium",
+    "detail": "Tested 10 payloads \u2014 no DB error detected."
+  },
+  {
+    "type": "SQL Injection",
+    "url": "http://localhost:3000/api/v1/search",
+    "severity": "Medium",
+    "detail": "Tested 10 payloads \u2014 no DB error detected."
+  },
+  {
+    "type": "SQL Injection",
+    "url": "http://localhost:3000/api/v1/users",
+    "severity": "Medium",
+    "detail": "Tested 10 payloads \u2014 no DB error detected."
+  },
+  {
+    "type": "SQL Injection",
+    "url": "http://localhost:3000/rest/products/search?q=test",
+    "severity": "Critical",
+    "detail": "SQL Injection CONFIRMED via payload '''. DB error: 'sqlite'"
+  },
+  {
+    "type": "SQL Injection",
+    "url": "http://localhost:3000/rest/user/login",
+    "severity": "Medium",
+    "detail": "Tested 10 payloads \u2014 no DB error detected."
+  }
+]
