@@ -1,0 +1,14 @@
+[
+  {
+    "type": "SQL Injection",
+    "url": "https://sudipojha.com/?s=test",
+    "severity": "Medium",
+    "detail": "Tested 10 payloads \u2014 no DB error detected."
+  },
+  {
+    "type": "SQL Injection",
+    "url": "https://sudipojha.com/?q=test",
+    "severity": "Medium",
+    "detail": "Tested 10 payloads \u2014 no DB error detected."
+  }
+]
